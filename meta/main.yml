@@ -11,16 +11,4 @@ galaxy_info:
   # platform on this list, let us know and we'll get it added!
   #
   categories:
-  #- cloud
-  #- cloud:ec2
-  #- cloud:gce
-  #- cloud:rax
-  #- database
-  #- database:nosql
-  #- database:sql
-  #- development
-  #- monitoring
-  #- networking
-  #- packaging
-  #- system
-  #- web
+    - system
