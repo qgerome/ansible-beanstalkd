@@ -3,7 +3,8 @@
 ## storage.
 BEANSTALKD_LISTEN_ADDR={{ beanstalkd_listen_addr }}
 BEANSTALKD_LISTEN_PORT={{ beanstalkd_listen_port }}
-DAEMON_OPTS="-l $BEANSTALKD_LISTEN_ADDR -p $BEANSTALKD_LISTEN_PORT"
+BEANSTALKD_EXTRA="{{ beanstalkd_extra }}"
+DAEMON_OPTS="-l $BEANSTALKD_LISTEN_ADDR -p $BEANSTALKD_LISTEN_PORT {{ BEANSTALKD_EXTRA }}"
 
 ## Uncomment to enable startup during boot.
 START={{ beanstalkd_start }}
